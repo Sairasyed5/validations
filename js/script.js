@@ -1,0 +1,28 @@
+document.getElementById("btn").addEventListener("click",(e))
+  let checkInputFields=()=>{
+    fname();
+    lname();
+    email();
+    pwd();
+    cpwd();
+    checkpasswords(); 
+  }
+  document.getElementById("fname").addEventListener("keyup",()=>{
+    fname();
+  })
+  document.getElementById("lname").addEventListener("keyup",()=>{
+    lname();
+  })
+  document.getElementById("email").addEventListener("keyup",()=>{
+    email();
+  })
+  document.getElementById("pwd").addEventListener("keyup",()=>{
+    pwd();
+  })
+  document.getElementById("cpwd").addEventListener("keyup",()=>{
+    cpwd();
+    checkpasswords();
+  })
+  document.getElementById("check").addEventListener("checked",()=>{
+    condition();
+  })
